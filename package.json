@@ -8,16 +8,22 @@
     "lint:fix": "standard --fix || exit 0",
     "test": "node --use_strict ./node_modules/jest/bin/jest --env=node --forceExit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CruGlobal/global-registry-nodejs-client.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-eslint": "^8.2.5",
     "request-promise-native": "^1.0.5"
   },
   "standard": {
     "env": [ "jest" ]
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "ajv-keywords": "^3.2.0",
+    "ajv": "^6.0.0",
     "eslint": "^5.0.0",
     "jest": "^22.4.4",
     "lodash": "^4.17.5",
