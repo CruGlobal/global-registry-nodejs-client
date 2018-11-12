@@ -18,7 +18,9 @@
     "request-promise-native": "^1.0.5"
   },
   "standard": {
-    "env": [ "jest" ]
+    "env": [
+      "jest"
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^8.2.5",
