@@ -47,12 +47,12 @@ client.EntityType.get( {filters: {name: 'person'}} ).then( result => result.enti
 client.EntityType.getOne('1200beca-169c-4443-85b3-80611f5c25a5').then( result => result.entity.entity_type )
 
 // POST:
-client.EntityType.post({name: '', parent_id: ''}).then()
+client.EntityType.post({name: '', parent_id: ''}, {full_response: true}).then()
 
 // PUT:
 client.EntityType.put(123, {name: '', parent_id: ''}).then()
 // or
-client.EntityType.put(123, {name: '', parent_id: ''}, {full_response:true}).then()
+client.EntityType.put(123, {name: '', parent_id: ''}, {full_response: true}).then()
 
 // DELETE
 client.EntityType.delete(123).then()
